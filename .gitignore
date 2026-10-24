@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+runs/
+fluidx3d/
+vehicles/**/geometry.stl
+vehicles/**/fluidx3d/
+*.pyc
+.DS_Store

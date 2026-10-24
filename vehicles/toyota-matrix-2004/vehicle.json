@@ -1,0 +1,40 @@
+{
+  "id": "toyota-matrix-2004",
+  "name": "Toyota Matrix",
+  "year": 2004,
+  "configuration": "Standard, front-wheel drive, 5-speed manual",
+  "dimensions_m": {
+    "length": 4.35,
+    "width": 1.775,
+    "height": 1.54,
+    "wheelbase": 2.6,
+    "front_track": 1.515,
+    "rear_track": 1.495,
+    "ground_clearance": 0.14986
+  },
+  "tolerances_m": {
+    "length": 0.08,
+    "width": 0.12,
+    "height": 0.08
+  },
+  "curb_weight_lb": 2679,
+  "curb_weight_source": "2004 US Matrix eBrochure, Standard 5-speed manual curb weight. Toyota Canada's 2004 spec sheet lists the manual base model at 1211 kg.",
+  "published_cd": 0.32,
+  "published_cd_source": "Toyota Canada 2004 Matrix specifications. This is a reference, not a simulation result.",
+  "frontal_area_m2": null,
+  "brochure_city_mpg": 29,
+  "brochure_highway_mpg": 36,
+  "brochure_mpg_source": "2004 US Matrix eBrochure, 2WD manual. Not an input to the fuel estimate.",
+  "dimension_sources": [
+    "https://media.toyota.ca/content/dam/media-toyota/general/specifications/04matrix_specsfeat_e.pdf",
+    "https://www.auto-brochures.com/makes/Toyota/Matrix/Toyota_US%20Matrix_2004.pdf"
+  ],
+  "orientation": {
+    "units": "meters",
+    "x": "Length. The nose is at minimum x, so the front points toward -x.",
+    "y": "Width, centered on 0.",
+    "z": "Height. The tires sit on z = 0."
+  },
+  "speeds_mph": [30, 40, 45, 60, 75],
+  "yaw_deg": [0, 5, 10, 15]
+}

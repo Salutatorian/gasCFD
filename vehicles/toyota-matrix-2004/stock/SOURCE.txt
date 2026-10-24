@@ -1,0 +1,4 @@
+Direct triangles from Toyota_Matrix.3ds (CadNav model C0817078).
+Source: cadnav.com. Not remeshed. Not signed off as a 2003 Toyota Matrix.
+Nose is the wiper end. Wheelbase scaled to 2.6 m.
+About 4.33 m long, 1.92 m wide, and 1.85 m tall.

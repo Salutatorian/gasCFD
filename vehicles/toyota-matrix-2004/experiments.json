@@ -1,0 +1,71 @@
+[
+  {
+    "id": "001",
+    "name": "Stock Matrix",
+    "geometry": "stock/geometry.stl",
+    "summary": "Unmodified body, wheels, and underside.",
+    "intent": null
+  },
+  {
+    "id": "002",
+    "name": "Front aero wheel covers",
+    "geometry": "wheel-covers/front/geometry.stl",
+    "summary": "Flat covers on the front wheels only.",
+    "intent": {
+      "wheels": "front",
+      "cover": "flat"
+    }
+  },
+  {
+    "id": "003",
+    "name": "All four aero wheel covers",
+    "geometry": "wheel-covers/all/geometry.stl",
+    "summary": "Flat covers on all four wheels.",
+    "intent": {
+      "wheels": "all",
+      "cover": "flat"
+    }
+  },
+  {
+    "id": "004",
+    "name": "Rear wheel skirts",
+    "geometry": "rear-wheel-skirts/geometry.stl",
+    "summary": "Skirts over the rear wheel arches.",
+    "intent": {
+      "thickness_mm": 3,
+      "coverage_pct": 72,
+      "clearance_mm": 20
+    }
+  },
+  {
+    "id": "005",
+    "name": "Wheel covers and skirts",
+    "geometry": "experiments/covers-and-skirts/geometry.stl",
+    "summary": "All four flat covers plus rear wheel skirts.",
+    "intent": {
+      "covers": "all-flat",
+      "skirts": "rear"
+    }
+  },
+  {
+    "id": "006",
+    "name": "Flat partial undertray",
+    "geometry": "undertray/geometry.stl",
+    "summary": "A flat panel over part of the underside.",
+    "intent": {
+      "coverage": "partial",
+      "surface": "flat"
+    }
+  },
+  {
+    "id": "007",
+    "name": "Rear Kamm extension",
+    "geometry": "rear-extension/geometry.stl",
+    "summary": "A short extension of the rear body.",
+    "intent": {
+      "kind": "kamm",
+      "length_mm": 300,
+      "angle_deg": 8
+    }
+  }
+]

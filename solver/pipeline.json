@@ -1,0 +1,11 @@
+{
+  "image": "opencfd/openfoam-run:2406",
+  "workdir": "/case",
+  "steps": [
+    "blockMesh",
+    "surfaceFeatureExtract",
+    "snappyHexMesh -overwrite",
+    "checkMesh",
+    "simpleFoam"
+  ]
+}
